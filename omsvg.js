@@ -1,0 +1,9 @@
+function initOm(){
+		$("omdownload").html('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="#263238" stroke="#263238" stroke-width="1" d="M18.9 10.3h-4V4.4H9v5.9H5l6.9 6.9 7-6.9zM5.1 19.2v2H19v-2H5.1z"></path></svg>').addClass("om");
+		$("omdownloadsquare").html('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="transparent" stroke="#263238" stroke-width="1" d="M18.9 10.3h-4V4.4H9v5.9H5l6.9 6.9 7-6.9zM5.1 17.2v6H19v-6h-0.5v4h-13v-4h-0.9"></path></svg>').addClass("om");
+		$("omdelete").html('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path  fill="transparent" stroke="#263238" stroke-width="1" d="M7 1H16zM2 3.5h19zM4 6.1h15v15A 4,3 0 0,1 15,24H8A4,5 0 0,1 4,21.1V5.1M8 9v12zM11.5 9v12zM15 9v12z"></path></svg>').addClass("om");
+		$("omfiles").html('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path  stroke="#263238" stroke-width="1" d="M7 1H21V18H20V2H7zM1 5H17V23H1V5zM4 11H14zM4 14H14zzM4 17H14z"></path></svg>').addClass("om");
+		$("ommenu").html('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path  fill="#263238" d="M1 11a 3,3 0 1,0 6,0a 3,3 0 1,0 -6,0zM9 11a 3,3 0 1,0 6,0a 3,3 0 1,0 -6,0zM17 11a 3,3 0 1,0 6,0a 3,3 0 1,0 -6,0z"></path></svg>').addClass("om");
+		$("omcheck").html('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="transparent" stroke="#263238" stroke-width="1" d="M0 12L11 23L24 4L20 0L10 16L4 8z"></path></svg>').addClass("om");
+		
+};
